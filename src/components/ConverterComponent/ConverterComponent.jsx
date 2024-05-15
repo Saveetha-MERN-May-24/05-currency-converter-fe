@@ -38,13 +38,6 @@ const ConverterComponent = () => {
         }) 
     }, []) 
   
-  
-    useEffect(() => {
-      if (input.currencyValueToBeConverted) {
-        handleConvert() 
-      }
-    }, [input.convertedCurrencyUnit]) 
-  
     return (
         <React.Fragment>
         <div className='master'>
